@@ -1,0 +1,142 @@
+*{
+    font-family: 'Lobster', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/* header */
+
+.header-container{
+     background-image: url(../images/banner/banner1.png);
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: right;
+     padding: 0px 230px;
+     background-size: 100%;
+}
+
+.headerdescription{
+    width: 40%;
+    text-align: right;
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-description{
+    color: #444344;
+    font-size: 16px;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22; 
+    padding: 20px 25px;
+    border: none;  
+    font-size: 20px;
+    color: white;
+}
+/* failuer section */
+.failure-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px ;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+   
+.My-failure{
+    align-items: center;
+}
+.title{
+   
+}
+
+.title-description{
+    font-size: 16px;
+    color: #444344;
+}
+ul {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+  }
+  
+  ul li:before {
+    color:#16D887;
+    content: '✓';
+  }
+  /* my plane */
+  .header-of-my-plan{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 230px;
+    margin-bottom: 50px;
+   
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+  }
+
+  .plane-header{
+    text-align: center;
+  }
+  .pcolor{
+    color: #737272;
+    font-size: 16px;
+    text-align: center;
+  }
+  /* always-positive-containe */
+
+  .always-positive-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+    margin-bottom: 135px;
+  }
+
+  .always-positive{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    color: white;
+    padding: 60px 70px;
+  }
+
+  .always-positive-title{
+    font-size: 40px;
+  }
+
+  .btn-secondary{
+    border-radius: 5px;
+    background-color: white; 
+    padding: 15px 25px;
+    border: none;  
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+  }
+  /* footer section */
+  .footer{
+    background-color: black;
+    color: white;
+    padding: 130px 100px;
+    display: flex;
+    gap:300px;
+  }
+ .footer-header
+    
+.footer-description{
+  margin-bottom: 24px;
+}
+ .email{
+  padding: 20px 20px 20px; 
+  border: 1px solid #fff; 
+  margin-bottom: 16px;
+
+ }
+ 
